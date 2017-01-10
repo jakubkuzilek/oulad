@@ -1,0 +1,21 @@
+citHeader("To cite oulad in publications use:")
+
+citEntry(entry = "Article",
+  title        = "OU Analyse: Analysing At-Risk Students at The Open University",
+  author       = personList(as.person("Jakub Kuzilek"),
+                   as.person("Martin Hlosta"),
+                   as.person("Drahomira Herrmannova"),
+                   as.person("Zdenek Zdrahal"),
+                   as.person("Annika Wolff")),
+  journal      = "Learning Analytics Review",
+  number       = "no. LAK15-1",
+  year         = "2015",
+  note         = "ISSN 2057-7494",
+  url          = "http://www.laceproject.eu/publications/analysing-at-risk-students-at-open-university.pdf",
+
+  textVersion  =
+  paste("Jakub Kuzilek, Martin Hlosta, Drahomira Herrmannova, Zdenek Zdrahal and Annika Wolff (2015).",
+        "OU Analyse: Analysing At-Risk Students at The Open University",
+        "Learning Analytics Review,",
+        "URL http://www.laceproject.eu/publications/analysing-at-risk-students-at-open-university.pdf.")
+)
