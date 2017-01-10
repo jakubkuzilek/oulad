@@ -7,22 +7,27 @@
 \title{oulad: Open University Learning Analytics dataset package}
 \description{
 This package provides the OULAD dataset in RData format ready to load in R.
-Data are complex thus they are splitted into several data.frames. For full
-description please visit \url{https://analyse.kmi.open.ac.uk/open_dataset} or see vignett
+Data are complex thus they are splitted into several data frames. For privacy
+resons names of courses are generic and the demographical data of students have
+been anonymised using ARX toolbox (\url{http://arx.deidentifier.org/anonymization-tool/}).
+For full description please visit \url{https://analyse.kmi.open.ac.uk/open_dataset}
+or see vignette.
 }
 \section{Available datasets}{
 
 \itemize{
   \item{\code{\link{assessment}} - Lists all assessments planned in each course.}
   \item{\code{\link{course}} - Lists all courses included into dataset.}
-  \item{student - Student data - demographics + result in course.}
-  \item{student_assessment - Assessment results and information regarding submissions of each student.}
-  \item{student_registration - Registration data of each student to courses.}
-  \item{student_vle - Interactional data between student and VLE.}
-  \item{vle - Data about materials and data available in Virtual Learning Environment (VLE).}
+  \item{\code{\link{student}} - Student data - demographics + result in course.}
+  \item{\code{\link{student_assessment}} - Assessment results and information regarding submissions of each student.}
+  \item{\code{\link{student_registration}} - Registration data of each student to courses.}
+  \item{\code{\link{student_vle}} - Interactional data between student and VLE.}
+  \item{\code{\link{vle}} - Data about materials and data available in Virtual Learning Environment (VLE).}
 }
 }
 \seealso{
-\code{\link{course}}
+\code{\link{assessment}} \code{\link{course}} \code{\link{student}}
+\code{\link{student_assessment}} \code{\link{student_registration}}
+\code{\link{student_vle}} \code{\link{vle}}
 }
 

@@ -20,5 +20,8 @@ data(course)
 A dataset containing names of courses accompanied with the semestral
 information - name and length.
 }
+\seealso{
+\code{\link{oulad}}
+}
 \keyword{datasets}
 

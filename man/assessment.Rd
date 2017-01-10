@@ -31,5 +31,8 @@ included in OULAD.
   \item{Exam - Final exam of the course semester}
 }
 }
+\seealso{
+\code{\link{oulad}}
+}
 \keyword{datasets}
 

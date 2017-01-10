@@ -6,13 +6,72 @@
 \title{Student data from OULAD dataset}
 \format{A data frame with 32593 rows and 12 variables:
 \describe{
-}}
+  \item{code_module}{Name of course, for which student registered}
+  \item{code_presentation}{Name of semester, for which student registered}
+  \item{id_student}{Unique integer identifiing each student}
+  \item{gender}{Students gender}
+  \item{region*}{UK region, in which student lives}
+  \item{highest_education*}{Highest education student achieved before taking course}
+  \item{imd_band*}{Index of Multiple Deprivation (see \url{https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015}) percentile, students with imd_band lower than 20 comes from the most deprived regions}
+  \item{age_band*}{Age band of student}
+  \item{num_of_prev_attempts}{Number of student previous attempts on the selected course}
+  \item{studied_credits}{Total credits student is studiing at the Open University during period of the course}
+  \item{disability}{Student claims disability of any type, logical}
+  \item{final_result}{Student final result in the course}
+}
+Variables with * has been anonymised (see vignette for details[]).}
+\source{
+\url{https://analyse.kmi.open.ac.uk/open_dataset}
+}
 \usage{
 data(student)
 }
 \description{
-A dataset containing demographical information about students, their courses visited
-and final results each course.
+A dataset containing demographical information about students, their courses attended
+and final results each of their course.
+}
+\section{Region values}{
+
+\itemize{
+   \item{East Anglian Region}
+   \item{Scotland}
+   \item{North Western Region}
+   \item{South East Region}
+   \item{West Midlands Region}
+   \item{Wales}
+   \item{North Region}
+   \item{South Region}
+   \item{Ireland}
+   \item{South West Region}
+   \item{East Midlands Region}
+   \item{Yorkshire Region}
+   \item{London Region}
+}
+See \url{https://en.wikipedia.org/wiki/Regions_of_England} for explanation.
+}
+
+\section{Highest education values}{
+
+\itemize{
+  \item{HE Qualification - awarded after one year full-time study at the university or higher education institution}
+  \item{A Level or Equivalent - secondary school leaving qualification}
+  \item{Lower Than A Level - did not completed secondary school}
+  \item{Post Graduate Qualification - equal to Master degree more or less}
+  \item{No Formal quals - no previous formal education}
+}
+}
+
+\section{Final result values}{
+
+\itemize{
+   \item{Pass - passed the course}
+   \item{Withdrawn - whithdrawn the course before offical end}
+   \item{Fail - failed the course after taking final exam}
+   \item{Distinction - passed course with outstanding results}
+}
+}
+\seealso{
+\code{\link{oulad}}
 }
 \keyword{datasets}
 
