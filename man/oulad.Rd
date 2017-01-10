@@ -13,13 +13,16 @@ description please visit \url{https://analyse.kmi.open.ac.uk/open_dataset} or se
 \section{Available datasets}{
 
 \itemize{
-  \item{course - Lists all courses included into dataset.}
-  \item{assessment - Lists all assessments planned in each course.}
-  \item{vle - Data about materials and data available in Virtual Learning Environment (VLE).}
+  \item{\code{\link{assessment}} - Lists all assessments planned in each course.}
+  \item{\code{\link{course}} - Lists all courses included into dataset.}
   \item{student - Student data - demographics + result in course.}
-  \item{student_registration - Registration data of each student to courses.}
   \item{student_assessment - Assessment results and information regarding submissions of each student.}
+  \item{student_registration - Registration data of each student to courses.}
   \item{student_vle - Interactional data between student and VLE.}
+  \item{vle - Data about materials and data available in Virtual Learning Environment (VLE).}
 }
+}
+\seealso{
+\code{\link{course}}
 }
 
