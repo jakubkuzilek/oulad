@@ -1,20 +1,17 @@
 Package: oulad
-Title: Open Univeristy Learning Analytics dataset
+Title: Open University Learning Analytics Dataset
 Version: 0.0.0.9001
 Authors@R: c(
   person("Jakub", "Kuzilek", email = "jakub.kuzilek@gmail.com", role = c("aut", "cre")),
   person("Martin", "Hlosta", , role = "aut"),
   person("Zdenek", "Zdrahal", , role = "aut")
   )
-Description: This package provides Open University Learning Analytics dataset.
+Description: An R package containing OULAD dataset. 
 Depends:
     R (>= 3.3.0)
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
-URL: tbd
-BugReports: tbd
-Suggests: knitr,
-    rmarkdown
-VignetteBuilder: knitr
+URL: https://github.com/jakubkuzilek/oulad
+BugReports: https://github.com/jakubkuzilek/oulad/issues
